@@ -1,10 +1,10 @@
 # HelloFromMaya
 
 
-## HelloMaya
+## "Hello World" App
 
 ### App Description
-My first Android app from a CodePath tutorial. The app allows the user to change the colors of the text and the custom background. it also allows the user to customize the label text by entering text in a text field with the keyboard.
+This is my first Android app from a [CodePath](https://www.youtube.com/channel/UCvrvJyrx7ebh02wuOId11HA "CodePath Youtube Channel") tutorial. The app allows the user to change the colors of the text and the custom background. It also allows the user to customize the label text by entering text in a text field with the keyboard.
 
 ### App Walk-though
 
