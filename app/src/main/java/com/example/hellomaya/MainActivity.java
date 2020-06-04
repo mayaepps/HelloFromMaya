@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //"change text color" button: changes text color to defined primary color
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //"change view color" button: changes background color to orange
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //"change text" button: user can update the label text with custom text (or default is goodbye)
         findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //reset everything chen the background is clicked
         findViewById(R.id.rootView).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 //reset text back to hello from maya
                 ((TextView) findViewById(R.id.textView)).setText(R.string.hello_from_maya);
 
-                //reset the editText
+                //reset the editText (my addition)
                 ((EditText) findViewById(R.id.editText)).setText("");
 
             }
