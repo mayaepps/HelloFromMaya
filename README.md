@@ -4,14 +4,14 @@
 ## HelloMaya
 
 ### App Description
-My first Android app from a CodePath tutorial.
+My first Android app from a CodePath tutorial. The app allows the user to change the colors of the text and the custom background. it also allows the user to customize the label text by entering text in a text field with the keyboard.
 
 ### App Walk-though
 
 <img src="helloMayaExample.gif" width=200><br>
 
 ### Required User Stories
-- [x] 1. User sees custom text in a label - Hello from {name}!
+- [x] 1. User sees custom text in a label - Hello from Maya!
 - [x] 2. User sees custom background color.
 - [x] 3. User can tap a button to change the text color of the label.
 
