@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //put the text into into the text view once the 'change text' button is clicked
                 if (TextUtils.isEmpty(newText)) {
-                    ((TextView) findViewById(R.id.textView)).setText("Goodbye! :)");
+                    ((TextView) findViewById(R.id.textView)).setText("Android is Awesome!");
                 } else {
                     ((TextView) findViewById(R.id.textView)).setText(newText);
                 }
